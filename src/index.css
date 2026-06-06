@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Bodoni Moda", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  --color-brand-primary: #3c0004;
+  --color-brand-secondary: #775a19;
+  --color-brand-beige: #fbf9f1;
+  --color-brand-ivory: #ffffff;
+  --color-brand-maroon: #3c0004;
+  --color-brand-gold: #775a19;
+  --color-brand-brown: #281410;
+  --color-brand-warm: #fbf9f1;
+  --color-brand-panel: #f0eee6;
+}
+
+/* Custom visual utilities */
+.glass-panel {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(251, 249, 241, 0.85);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #e9c176 0%, #775a19 100%);
+}
+
+.gold-gradient-hover {
+  background: linear-gradient(135deg, #f0cf90 0%, #8f6d21 100%);
+}
+
+.maroon-gradient {
+  background: linear-gradient(135deg, #5d0e11 0%, #3c0004 100%);
+}
+
+.henna-divider {
+  background-image: radial-gradient(circle, #775a19 1px, transparent 1px);
+  background-size: 8px 8px;
+  height: 8px;
+  opacity: 0.3;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Al Hena Mehandi Art Abu Dhabi",
+  "description": "Premium Mehandi artistry available at partner boutiques and salons in Abu Dhabi. Elegant Arabic, Indian, and bridal fusion styles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
